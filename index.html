@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64b23170d6.js" crossorigin="anonymous"></script>
+    <title>M3school</title>
+</head>
+
+<body>
+    <header class="general">
+        <div class="logo">
+            <p>m3schools<span>.com</span></p>
+        </div>
+        <div class="moto">
+            <p>THE WORLD'S LARGEST DEVELOPER SITE</p>
+        </div>
+    </header>
+    <div class="navbar">
+        <i class="fas fa-bars"></i>
+        <a id="link1" onclick="show(1)">TUTORIALS<div class="arrow"><div class="arrow-up1" ></div><div class="arrow-down1"></div></div></a>
+        <a id="link2" onclick="show(2)">REFERENCES<div class="arrow"><div class="arrow-up2" ></div><div class="arrow-down2"></div></div></a>
+        <a id="link3" onclick="show(3)">EXAMPLES<div class="arrow"><div class="arrow-up3" ></div><div class="arrow-down3"></div></div></a>
+        <a id="link4" onclick="show(4)">EXERCISES<div class="arrow"><div class="arrow-up4" ></div><div class="arrow-down4"></div></div></a>
+        <a href="" class="search"><i class="fas fa-search"></i></a>
+        <a href="" class="globe"><i class="fas fa-globe-asia"></i></a>
+        <a href="" class="bicolor"><i class="fas fa-adjust"></i></a>
+    </div>
+    <div class="menu1 general">
+        <div>
+            <H3>HTML and CSS</H3>
+            <ul>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn Bootstrap</li>
+                <li>Learn W3.CSS</li>
+                <li>Learn Colors</li>
+                <li>Learn Icons</li>
+                <li>Learn Graphics</li>
+                <li>Learn How To</li>
+                <li>Learn Sass</li>
+            </ul>
+        </div>
+        <div>
+            <h3>JavaScript</h3>
+            <ul>
+                <li>Learn JavaScript</li>
+                <li>Learn jQuery</li>
+                <li>Learn React</li>
+                <li>Learn AngularJS</li>
+                <li>Learn JSON</li>
+                <li>Learn AJAX</li>
+                <li>LearnW3.JS</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Server Side</h3>
+            <ul>
+                <li>Learn SQL</li>
+                <li>Learn PHP</li>
+                <li>Learn ASP</li>
+                <li>Learn Node.js</li>
+                <li>Learn Raspberry Pi</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>References</h3>
+                <li>HTML Reference</li>
+                <li>CSS Reference</li>
+                <li>JS Reference</li>
+                <li>SQL Reference</li>
+                <li>PHP Reference</li>
+                <li>jQuery Reference</li>
+                <li>Python Reference</li>
+                <li>Bootstrap 3 Reference</li>
+                <li>Bootstrap 4 Reference</li>
+                <li>W3.CSS Reference</li>
+                <li>Java Reference</li>
+                <li>Angular Reference</li>
+                <li>Sass Reference</li>
+                <li>UTF-8 Reference</li>
+            </ul>
+        </div>
+        <div class="hide1" onclick="hide(1)">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="menu2 general">
+        <div>
+            <h3>XML Tutorials</h3>
+            <ul>
+                <li>Learn XML</li>
+                <li>Learn XML AJAX</li>
+                <li>Learn XML DOM</li>
+                <li>Learn XML DTD</li>
+                <li>Learn XML Schema</li>
+                <li>Learn XSLT</li>
+                <li>Learn XPath</li>
+                <li>Learn XQuery</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Web Building</h3>
+            <li>Web Templates</li>
+            <li>Web Statistics</li>
+            <li>Web Certificates</li>
+            <li>Web Editor</li>
+            <li>Web Development</li>
+            <li>Test Your Typing Speed</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Exercise</h3>
+            <li>HTML Exercises</li>
+            <li>CSS Exercises</li>
+            <li>JavaScript Exercises</li>
+            <li>SQL Exercises</li>
+            <li>PHP Exercises</li>
+            <li>Python Exercises</li>
+            <li>Java Exercises</li>
+            <li>C++ Exercises</li>
+            <li>C# Exercises</li>
+            <li>Bootstrap Exercises</li>
+            </ul>
+        </div>
+        <div class="hide2" onclick="hide(2)">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="menu3 general">
+        <div>
+            <H3>HTML and CSS</H3>
+            <ul>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn Bootstrap</li>
+                <li>Learn W3.CSS</li>
+                <li>Learn Colors</li>
+                <li>Learn Icons</li>
+                <li>Learn Graphics</li>
+                <li>Learn How To</li>
+                <li>Learn Sass</li>
+            </ul>
+        </div>
+        <div>
+            <h3>JavaScript</h3>
+            <ul>
+                <li>Learn JavaScript</li>
+                <li>Learn jQuery</li>
+                <li>Learn React</li>
+                <li>Learn AngularJS</li>
+                <li>Learn JSON</li>
+                <li>Learn AJAX</li>
+                <li>LearnW3.JS</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Server Side</h3>
+            <ul>
+                <li>Learn SQL</li>
+                <li>Learn PHP</li>
+                <li>Learn ASP</li>
+                <li>Learn Node.js</li>
+                <li>Learn Raspberry Pi</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>References</h3>
+                <li>HTML Reference</li>
+                <li>CSS Reference</li>
+                <li>JS Reference</li>
+                <li>SQL Reference</li>
+                <li>PHP Reference</li>
+                <li>jQuery Reference</li>
+                <li>Python Reference</li>
+                <li>Bootstrap 3 Reference</li>
+                <li>Bootstrap 4 Reference</li>
+                <li>W3.CSS Reference</li>
+                <li>Java Reference</li>
+                <li>Angular Reference</li>
+                <li>Sass Reference</li>
+                <li>UTF-8 Reference</li>
+            </ul>
+        </div>
+        <div class="hide3" onclick="hide(3)">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="menu4 general">
+        <div>
+            <h3>XML Tutorials</h3>
+            <ul>
+                <li>Learn XML</li>
+                <li>Learn XML AJAX</li>
+                <li>Learn XML DOM</li>
+                <li>Learn XML DTD</li>
+                <li>Learn XML Schema</li>
+                <li>Learn XSLT</li>
+                <li>Learn XPath</li>
+                <li>Learn XQuery</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Web Building</h3>
+            <li>Web Templates</li>
+            <li>Web Statistics</li>
+            <li>Web Certificates</li>
+            <li>Web Editor</li>
+            <li>Web Development</li>
+            <li>Test Your Typing Speed</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Exercises</h3>
+            <li>HTML Exercises</li>
+            <li>CSS Exercises</li>
+            <li>JavaScript Exercises</li>
+            <li>SQL Exercises</li>
+            <li>PHP Exercises</li>
+            <li>Python Exercises</li>
+            <li>Java Exercises</li>
+            <li>C++ Exercises</li>
+            <li>C# Exercises</li>
+            <li>Bootstrap Exercises</li>
+            </ul>
+        </div>
+        <div class="hide4" onclick="hide(4)">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="general">
+        <div class="side-bar">
+            <H3>HTML and CSS</H3>
+            <ul>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn Bootstrap</li>
+                <li>Learn W3.CSS</li>
+                <li>Learn Colors</li>
+                <li>Learn Icons</li>
+                <li>Learn Graphics</li>
+                <li>Learn How To</li>
+                <li>Learn Sass</li>
+            </ul>
+            <h3>JavaScript</h3>
+            <ul>
+                <li>Learn JavaScript</li>
+                <li>Learn jQuery</li>
+                <li>Learn React</li>
+                <li>Learn AngularJS</li>
+                <li>Learn JSON</li>
+                <li>Learn AJAX</li>
+                <li>LearnW3.JS</li>
+            </ul>
+            <h3>Server Side</h3>
+            <ul>
+                <li>Learn SQL</li>
+                <li>Learn PHP</li>
+                <li>Learn ASP</li>
+                <li>Learn Node.js</li>
+                <li>Learn Raspberry Pi</li>
+            </ul>
+            <h3>Programming</h3>
+            <ul>
+                <li>Learn Python</li>
+                <li>Learn Java</li>
+                <li>Learn C++</li>
+                <li>Learn C#</li>
+                <li>Learn Machine Learning</li>
+            </ul>
+            <ul>
+                <h3>Web Building</h3>
+                <li>Web Templates</li>
+                <li>Web Statistics</li>
+                <li>Web Certificates</li>
+                <li>Web Editor</li>
+                <li>Web Development</li>
+                <li>Test Your Typing Speed</li>
+            </ul>
+            <h3>XML Tutorials</h3>
+            <ul>
+                <li>Learn XML</li>
+                <li>Learn XML AJAX</li>
+                <li>Learn XML DOM</li>
+                <li>Learn XML DTD</li>
+                <li>Learn XML Schema</li>
+                <li>Learn XSLT</li>
+                <li>Learn XPath</li>
+                <li>Learn XQuery</li>
+            </ul>
+            <h3>References</h3>
+            <ul>
+                <li>HTML Reference</li>
+                <li>CSS Reference</li>
+                <li>JS Reference</li>
+                <li>SQL Reference</li>
+                <li>PHP Reference</li>
+                <li>jQuery Reference</li>
+                <li>Python Reference</li>
+                <li>Bootstrap 3 Reference</li>
+                <li>Bootstrap 4 Reference</li>
+                <li>W3.CSS Reference</li>
+                <li>Java Reference</li>
+                <li>Angular Reference</li>
+                <li>Sass Reference</li>
+                <li>UTF-8 Reference</li>
+            </ul>
+            <h3>Exercises</h3>
+            <ul>
+                <li>HTML Exercises</li>
+                <li>CSS Exercises</li>
+                <li>JavaScript Exercises</li>
+                <li>SQL Exercises</li>
+                <li>PHP Exercises</li>
+                <li>Python Exercises</li>
+                <li>Java Exercises</li>
+                <li>C++ Exercises</li>
+                <li>C# Exercises</li>
+                <li>Bootstrap Exercises</li>
+            </ul>
+        </div>
+        <div class="main general">
+            <div class="general">
+                <div class="un">
+                    <h1 class="center">HTML</h1>
+                    <h2 class="center">The language for building web pages</h2>
+                    <div class="general central">
+                        <a href="" class="grey">LEARN HTML</a>
+                        <div class="space"></div>
+                        <a href="" class="grey">HTML REFERENCE</a>
+                    </div>
+                </div>
+                <div class="deux">
+                    <h2>HTML Example:</h2>
+                    <div class="example">
+                        <div class="left-bar"></div>
+                        <span class="blue"><</span><span class="brown">!DOCTYPE <span class="red">html</span></span><span class="blue">></span> <br>
+                        <span class="blue"><</span><span class="brown">html</span><span class="blue">></span><br>
+                        <span class="blue"><</span><span class="brown">title</span><span class="blue">></span><span class="black">HTML Tutorial</span><span class="blue"><</span><span class="brown">/title</span><span class="blue">></span><br>
+                        <span class="blue"><</span><span class="brown">body</span><span class="blue">></span><br>
+                        <br>
+                        <span class="blue"><</span><span class="brown">h1</span><span>></span><span class="black">This is a heading</span><span class="blue"><</span><span class="brown">/h1</span> <span class="blue">></span><br>
+                        <span class="blue"><</span><span class="brown">p</span><span class="blue">></span><span class="black">This is a paragraph.</span><span class="blue"><</span><span class="brown">/p</span><span class="blue">></span><br>
+                        <br>
+                        <span class="blue"><</span><span class="brown">/body</span><span class="blue">></span><br>
+                        <span class="blue"><</span><span class="brown">/html</span><span class="blue">></span>
+
+                    </div>
+                    <a href="" class="green">Try it yourself >></a>
+                </div>
+            </div>
+            <div class="general backgroundg">
+                <div class="trois ">
+                    <h2>CSS Example:</h2>
+                    <div class="example">
+                        <div class="left-bar3"></div>
+                        <p><span class="brown">body</span> { <br> <span class="red">background-color:</span> <span class="blue">lightblue</span>; <br> } <br><br> <span class="brown">h1</span> { <br> <span class="red">color:</span> <span class="blue">white</span>;
+                            <br> <span class="red">text-align:</span> <span class="blue">center</span>; <br> } <br><br> <span class="brown">p</span> { <br> <span class="red">font-family:</span> <span class="blue">verdana</span>; <br> <span class="red">font-size:</span>                            <span class="blue">20px</span>; <br> }
+                        </p>
+
+                    </div>
+                    <a href="" class="green">Try it yourself >></a>
+                </div>
+                <div class="quatre">
+                    <h1 class="center">CSS</h1>
+                    <h2 class="center">The language for styling web pages</h2>
+                    <div class="general central">
+                        <a href="" class="grey first">LEARN CSS</a>
+                        <div class="space"></div>
+                        <a href="" class="grey">CSS REFERENCE</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="general">
+                <div class="cinq">
+                    <h1 class="center">JavaScript</h1>
+                    <h2 class="center">The language for programming web pages</h2>
+                    <div class="general central">
+                        <a href="" class="grey first">LEARN JAVASCRIPT</a>
+                        <div class="space"></div>
+                        <a href="" class="grey">JAVASCRIPT REFERENCE</a>
+                    </div>
+                </div>
+                <div class="six">
+                    <h2>JavaScript Example:</h2>
+                    <div class="example">
+                        <div class="left-bar6"></div>
+                        <span class="blue"><</span><span class="brown">button</span> <span class="red">onclick</span><span class="blue">="myFunction()"></span><span class="brown">Click Me !</span><span class="blue"><</span><span class="brown">/button</span>
+                        <span class="blue">></span><br>
+                        <br>
+                        <span class="blue"><</span><span class="brown">script</span><span class="blue">></span><br>
+                        <span class="blue">function</span> <span class="black">myFunction() {</span><br>
+                        <span class="blue">var</span> <span class="black">x = document.getElementById(</span><span class="brown">"demo"</span><span class="black">);</span><br>
+                        <span class="black">x.style.fontsize = </span><span class="brown">"25px"</span><span class="black">;</span><br>
+                        <span class="black">x.style.color = </span><span class="brown">"red"</span><span class="black">;</span><br>
+                        <span class="black">}</span><br>
+                        <span class="blue"><</span><span class="brown">/script</span><span class="blue">></span>
+                    </div>
+                    <a href="" class="green">Try it yourself >></a>
+                </div>
+            </div>
+            <div class="general backgroundg">
+                <div class="sept ">
+                    <h2>SQL Example:</h2>
+                    <div class="example">
+                        <div class="left-bar7"></div>
+                        <span class="blu">SELECT</span> <span class="black">*</span> <span class="blue">FROM</span> <span class="black">Customers</span><br>
+                        <span class="blue">WHERE</span> <span class="black">Country=</span><span class="brown">'Mexico'</span><span class="black">;</span>
+
+                    </div>
+                    <a href="" class="green">Try it yourself >></a>
+                </div>
+                <div class="huit">
+                    <h1 class="center">SQL</h1>
+                    <h2 class="center">A language for accessing databases</h2>
+                    <div class="general central">
+                        <a href="" class="grey first">LEARN SQL</a>
+                        <div class="space"></div>
+                        <a href="" class="grey">SQL REFERENCE</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function show(i) {
+            if (i == 1) {
+                hide(2),
+                    hide(3);
+                hide(4);
+            }
+            if (i == 2) {
+                hide(1),
+                    hide(3);
+                hide(4);
+
+            }
+            if (i == 3) {
+                hide(2),
+                    hide(1);
+                hide(4);
+            }
+            if (i == 4) {
+                hide(2),
+                    hide(1);
+                hide(3);
+            }
+            document.querySelector(".menu" + i).style.display = "flex";
+            document.querySelector(".arrow-down" + i).style.display = "none";
+            document.querySelector(".arrow-up" + i).style.display = "block";
+
+        }
+
+        function hide(i) {
+            document.querySelector(".menu" + i).style.display = "none";
+            document.querySelector(".arrow-up" + i).style.display = "none";
+            document.querySelector(".arrow-down" + i).style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
