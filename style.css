@@ -1,5 +1,7 @@
 body {
     margin:0;
+    box-sizing: border-box;
+    width:100%;
     font-family: Verdana, sans-serif;
 }
 
@@ -352,7 +354,7 @@ header.general {
         display: none;
     }
     div.main {
-        width: 100%;
+        width: 95%;
     }
 }
 
